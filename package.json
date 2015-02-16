@@ -1,6 +1,6 @@
 {
   "name": "bev",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Backbone.js's event mechanism as mixin",
   "main": "index.js",
   "scripts": {

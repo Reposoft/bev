@@ -45,4 +45,9 @@ describe("bev", function() {
     
   });
 
+  it("Can do the same thing on alternative function names, as require('bev') isn't explanatory", function() {
+    var bev = require('bev');
+    expect(bev.backboneEvents).to.exist;
+  });
+
 });
